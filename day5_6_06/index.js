@@ -108,7 +108,7 @@ const hello ={}
 hello.newkey = "newvalue"
 // console.log(hello);
 hello.newarr=[1,2,3]
-console.log(hello.newarr);
+console.log(hello.newarr[0]);
 hello.newarr.push (45)
 console.log(hello.newarr);
 hello.newobj = {
