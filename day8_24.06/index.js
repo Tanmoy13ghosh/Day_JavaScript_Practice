@@ -56,3 +56,16 @@
 //     return(element.match("day"));
 // })
 // console.log(a);
+
+// const ans = arr.every((element)=>{
+//     return(typeof arr ==="object")
+// })
+// console.log(ans);
+
+// const ans2 = arr.every((element)=> typeof element === "string")
+//     // return(typeof arr ==="object")
+// console.log(ans2);
+
+const numbers = [1, 2, 3, 4, 5]
+numbers.unshift(0,4) // -> remove one item from the beginning
+console.log(numbers) // -> [2,3,4,5]
